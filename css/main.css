@@ -1,0 +1,143 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+body {
+    background-color: 	#C0C0C0;
+}
+
+.community-about-info  {
+    width: 50%;
+    height: auto;
+    background-color: whitesmoke;
+    margin: auto;
+    margin-top: 50px;
+    border-radius: 10px;
+}
+
+.community-about-info h1 {
+    font-size: 23px;
+    color: #21ABCD;
+    padding-top: 25px;
+    margin-bottom: 15px;
+    padding-left: 40px;
+}
+
+.community-about-info h2 {
+    font-size: 16px;
+    color: #A4C639;
+    padding-left: 39px;
+    margin-bottom: 10px;
+}
+
+.community-about-info p {
+    font-size: 18px;
+    color: #2A52BE;
+    padding-left: 39px;
+    padding-bottom: 13px;
+}
+
+#bg-1 {
+    background-color:	#00CED1 ;
+    background-color:	#01796F ;
+}
+
+#bg-2 {
+    background-color:	#00A693	 ;
+}
+
+.subscrip {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    width: 50%;
+    height: auto;
+    margin: auto;
+    border-radius: 10px;
+    background-color: whitesmoke;
+}
+
+.subscrip .subscrip-info-about {
+    width: 50%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.subscrip .subscrip-info-about h3 {
+    font-size: 20px;
+    color: white;
+    padding-top: 30px;
+    padding-left: 40px;
+}
+
+.subscrip .subscrip-info-about p {
+    font-size: 16px;
+    color:white ;
+    padding-top: 10px;
+    padding-left: 39px;
+
+}
+
+.subscrip .subscrip-info-about p span {
+    font-size: 16px;
+    color: #A4C639;
+}
+
+.subscrip .subscrip-info-about button {
+    margin-left: 40px;
+    margin-top: 23px;
+    padding-top: 5px;
+    padding-bottom: 7px;
+    width: 40%;
+    font-size: 16px;
+    color: white;
+    border: 1px solid #C0C0C0;
+    border-radius: 15px;  
+    background-color: #A4C639;
+    transition: all 1s;
+}
+
+.subscrip .subscrip-info-about button:hover {
+    background-color: transparent;
+    color: white;
+    border: 1px solid #000;
+}
+
+.subscrip .subscrip-info-about h4 {
+    font-size: 20px;
+    color: white;
+    padding-top: 30px;
+    padding-left: 40px;
+}
+
+.subscrip .subscrip-info-about #f-size {
+    font-size: 14px;
+    padding-bottom: 13px;
+}
+
+@media (max-width: 750px){
+    .community-about-info {
+        width: 100%;
+        margin-top: 10px;
+    }
+
+    .subscrip {
+        flex-wrap: wrap;
+        width: 100%;
+
+    }
+
+    .subscrip .subscrip-info-about {
+        width: 100%;
+        margin-bottom: 4px;
+
+    }
+
+    .subscrip .subscrip-info-about button {
+        margin-bottom: 10px;
+        font-size: 18px;
+    }
+}
